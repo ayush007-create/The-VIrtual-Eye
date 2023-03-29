@@ -76,8 +76,6 @@ while(Serial.available())
 
  data=Serial.read();
 
- SerialData+=data;
-
 }
 
 if(SerialData=="display distance")
